@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+.main_cont {
+    height: fit-content;
+    width: 100vw;
+    background-color: white;
+    
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header img{
+    height: 20vh;
+    width: 100vw;
+}
+
+.body{
+    padding-top: 2rem;
+    height: fit-content;
+    width: 100vw;  
+   
+}
+
+
+
+.beverage{
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+   
+}
+
+.beverage button{
+    border: none;
+    background: none;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bv-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100vw;
+    gap: 1rem;
+}
+
+.fd-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100vw;
+    gap: 1rem;
+    padding-bottom: 5rem;
+    overflow: auto;
+} 
+
+
+.food{
+    height: fit-content;
+    width: 100vw;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 1.5rem;
+   
+}
+
+.food button{
+    border: none;
+    background: none;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* .footer{
+    height: 10vh;
+    position: fixed;
+    bottom:0;
+    width: 100vw;  
+    
+    
+}
+
+.footer img{
+    height: 10vh;
+    width: 100vw;
+   
+    
+} */
+
+#lista,#listb,#listc,#listd,#liste,#listf,#listg,#listh,#listi,#listj,#listk,#listl {
+    visibility: hidden;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+

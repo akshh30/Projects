@@ -1,0 +1,44 @@
+.links{
+    display: flex;
+    flex-direction: row;
+   padding-top: 3px;
+   font-size: 25px;
+   color: white;
+   align-items: center;
+   height: 10vh;
+   gap: 10px;
+}
+
+.links button{
+    
+    
+    width: 4rem;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    padding: 5px;
+}
+
+
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    width: 15vw;
+}
+
+.srch{
+    width: 70vw;
+    display: flex;
+    overflow-x: auto;
+}
+
+.form{
+    width: 15vw;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

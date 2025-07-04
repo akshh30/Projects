@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    
+<div  class="main_cont">
+
+<div class="header">
+    <nav >
+        <img src="./img/Untitled.png" alt="">
+    </nav>
+</div>
+
+<div class="body" >
+    <div class="beverage">
+        <h1>-----BEVERAGES-----</h1>
+         <div  class="bv-btn">
+         <button onclick="showchai()">Special Chai</button>
+         <div style="width:fit-content" id="lista">
+            <div >
+
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Gharkul Chai</p>
+                </div>
+                <br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Black Tea</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Green Tea</p>
+                </div><br>
+                 <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Lemon Tea</p>
+                </div>
+            </div>
+            <div>
+                <p>-----  Rs.10</p><br>
+                <p>-----  Rs.10</p><br>
+                <p>-----  Rs.10</p><br>
+                <p>-----  Rs.10</p>
+            </div>
+            </div>
+         <button onclick="showcoffe()">Coffee</button>
+         <div style="width:fit-content"  id="listb">
+            <div>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Hot Coffee</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Black Coffee</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Classic Cold Coffee</p>
+                </div>
+            </div>
+            <div>
+                <p>-----  Rs.25</p><br>
+                <p>-----  Rs.20</p><br>
+                <p>-----  Rs.99</p>
+            </div>
+            </div>
+         <button onclick="showBun()">Bun Maska</button>
+         <div style="width:fit-content"  id="listc">
+            <div>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Bun Maska</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Bun Maska Jam</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Butter Toast</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Chilli Garlic</p>
+                </div>
+                <p>Cheese Toast</p>
+            </div>
+            <div>
+                <p>-----  Rs.25</p><br>
+                <p>-----  Rs.30</p><br>
+                <p>-----  Rs.25</p><br>
+                <p>-----  Rs.60</p>
+            </div>
+            </div>
+         <button onclick="showShakes()">Shakes & Frapes</button>
+         <div style="width:fit-content" id="listd">
+            <div>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Chocolate Shake</p>
+                </div>
+                <br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Kitkat Shake</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Oreo Shake</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Butterscotch Shake</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Vanilla Shake</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Strawberry Shake</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Nutella Shake</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Hazelnut Shake</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Chocolate Frappe</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Kitkat Frappe</p>
+                </div><br>
+                <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                    <input type="checkbox"><p>Oreo Frappe</p>
+                </div><br>
+            </div>
+            <div>
+                <p>-----  Rs.99</p><br>
+                <p>-----  Rs.110</p><br>
+                <p>-----  Rs.110</p><br>
+                <p>-----  Rs.120</p><br>
+                <p>-----  Rs.110</p><br>
+                <p>-----  Rs.120</p><br>
+                <p>-----  Rs.129</p><br>
+                <p>-----  Rs.129</p><br>
+                <p>-----  Rs.110</p><br>
+                <p>-----  Rs.120</p><br>
+                <p>-----  Rs.120</p><br>
+            </div>
+            </div>
+         </div>
+
+    </div>
+    <div class="food">
+       
+         <h1>-----FOOD MENU-----</h1>
+        <div class="fd-btn">
+            <button onclick="showMaggie()">Maggie</button>
+            <div style="width:fit-content" id="liste">
+                <div>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Plain  Maggie</p>
+                    </div><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Cheese Maggie</p>
+                    </div><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Veg Masala Maggie</p>
+                    </div><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Corn Cheese Maggie</p>
+                    </div><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Schezwan Maggie</p>
+                    </div><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Punjabi Tadka Maggie</p>
+                    </div><br>
+                     <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Paneer Maggie</p>
+                    </div><br>
+                     <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Chilli Garlic Cheese </p>
+                    </div>
+                    <p>Maggie</p><br>
+                </div>
+                <div>
+                    <p>-----  Rs.40</p>  <br>
+                    <p>-----  Rs.50</p> <br>
+                    <p>-----  Rs.60</p> <br>
+                    <p>-----  Rs.80</p> <br>
+                    <p>-----  Rs.70</p> <br>
+                    <p>-----  Rs.80</p> <br>
+                    <p>-----  Rs.100</p> <br>
+                    <p>-----  Rs.100</p>
+                </div>
+            </div>
+            <button onclick="showMunchies()">Munchies</button>
+            <div style="width:fit-content" id="listf">
+                <div>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Salted Fries</p>
+                    </div><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Peri Peri Fries</p>
+                    </div><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Cheesy Fries</p>
+                    </div><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Loaded Nachos</p>
+                    </div>
+                </div>
+                <div>
+                    <p>-----  Rs.79</p><br>
+                    <p>-----  Rs.89</p><br>
+                    <p>-----  Rs.99</p><br>
+                    <p>-----  Rs.110</p>
+                </div>
+                </div>
+            <button onclick="showPizza()">Pizza</button>
+            <div style="width:fit-content" id="listg">
+                <div>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Magherita</p>
+                    </div>
+                    <p>Pizza</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Farm Fresh</p>
+                    </div>
+                    <p>Pizza</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Peppy Paneer</p>
+                    </div>
+                    <p>Pizza</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Corn Cheese</p>
+                    </div>
+                    <p>Pizza</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Spicy Delight</p>
+                    </div>
+                    <p>Pizza</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Paneer Makhani</p>
+                    </div>
+                    <p>Pizza</p><br>
+                </div>
+                <div>
+                    <p>-----  Rs.100</p> <br><br>
+                    <p>-----  Rs.110</p> <br><br>
+                    <p>-----  Rs.150</p> <br><br>
+                    <p>-----  Rs.140</p> <br><br>
+                    <p>-----  Rs.150</p> <br><br>
+                    <p>-----  Rs.170</p> 
+                </div>
+                </div>
+            <button onclick="showPasta()">Pasta</button>
+            <div style="width:fit-content" id="listh">
+                <div>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>White Sauce</p>
+                    </div>
+                    <p>Pasta</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Red Sauce</p>
+                    </div>
+                    <p>Pasta</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Spicy and Mac</p>
+                    </div>
+                    <p>Cheese Pasta</p><br>
+                </div>
+                <div>
+                    <p>-----  Rs.120</p> <br><br>
+                    <p>-----  Rs.130</p> <br><br>
+                    <p>-----  Rs.140</p> 
+                </div>
+                </div>
+            <button onclick="showTornado()">Tornado</button>
+            <div style="width:fit-content" id="listi">
+                <div>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Classic Tornado</p>
+                    </div><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Peri Peri</p>
+                    </div>
+                </div>
+                <div>
+                    <p>-----  Rs.89</p><br>
+                    <p>-----  Rs.99</p>
+                    
+                </div>
+                </div>
+            <button onclick="showBurger()">Burger</button>
+            <div style="width:fit-content" id="listj">
+                <div>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Classic Veg</p>
+                    </div>
+                    <p>Burger</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Aloo Tikki</p>
+                    </div>
+                    <p>Burger</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Crispy Paneer</p>
+                    </div>
+                    <p>Burger</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Paneer Jalapeno</p>
+                    </div>
+                    <p>Burger</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Double Decker</p>
+                    </div>
+                    <p>Burger</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Cheese Burst</p>
+                    </div>
+                    <p>Burger</p><br>
+                </div>
+                <div>
+                    <p>-----  Rs.79</p>  <br><br>
+                    <p>-----  Rs.79</p> <br><br>
+                    <p>-----  Rs.99</p> <br><br>
+                    <p>-----  Rs.110</p> <br><br>
+                    <p>-----  Rs.110</p> <br><br>
+                    <p>-----  Rs.139</p> 
+                </div>
+                </div>
+            <button onclick="showMomo()">Momos</button>
+            <div style="width:fit-content" id="listk">
+                <div>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Veg Steamed</p>
+                    </div>
+                    <p>Momos</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Veg Fried</p>
+                    </div>
+                    <p>Momos</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Paneer Steamed</p>
+                    </div>
+                    <p>Momos</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Paneer Fried</p>
+                    </div>
+                    <p>Momos</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Veg Kurkure</p>
+                    </div>
+                    <p>Momos</p><br>
+                </div>
+                <div>
+                    <p>-----  Rs.99</p>  <br><br>
+                    <p>-----  Rs.110</p>  <br><br>
+                    <p>-----  Rs.120</p> <br><br>
+                    <p>-----  Rs.130</p> <br><br>
+                    <p>-----  Rs.139</p> 
+                </div>
+                </div>
+            <button onclick="showSandwich()">Sandwich</button>
+            <div style="width:fit-content" id="listl">
+                <div style="display: flex;flex-direction: column;">
+
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Veg Coleslaw</p>
+                    </div>
+                    <p>Sandwich</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Grilled Cheese</p>
+                    </div>
+                    <p>Sandwich</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Chilli Cheese Corn</p>
+                    </div>
+                    <p>Sandwich</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Bombay Masala</p>
+                    </div>
+                    <p>Sandwich</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Tandoori Paneer</p>
+                    </div>
+                    <p>Sandwich</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Peri Peri</p>
+                    </div>
+                    <p>Sandwich</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Special Vadapav</p>
+                    </div>
+                    <p>Sandwich</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Corn Makhani</p>
+                    </div>
+                    <p>Sandwich</p><br>
+                    <div style="width:fit-content;gap: 5px;display: flex; flex-direction: row;">
+                        <input type="checkbox"><p>Paneer Makhani</p>
+                    </div>
+                    <p>Sandwich</p>
+                </div>
+                <div>
+                    <p>-----  Rs.99</p>  <br><br>
+                    <p>-----  Rs.99</p>  <br><br>
+                    <p>-----  Rs.110</p> <br><br>
+                    <p>-----  Rs.110</p> <br><br>
+                    <p>-----  Rs.130</p> <br><br>
+                    <p>-----  Rs.120</p> <br><br>
+                    <p>-----  Rs.129</p> <br><br>
+                    <p>-----  Rs.120</p> <br><br>
+                    <p>-----  Rs.129</p>
+                </div>
+                </div>
+        
+       </div>
+    </div>
+
+    
+
+
+</div>
+
+
+
+</div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

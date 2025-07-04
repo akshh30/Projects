@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+   background:linear-gradient(to right ,purple,rgba(128, 0, 128, 0.5),rgba(0, 0, 255, 0.5),blue);
+   height: 50px;
+   margin: 5px;
+   
+   
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   align-items: start;
+   padding-left: 10px;
+}
+
+.btn{
+    width: 20%;
+}
+
+.main button{
+    border-radius:30px ;
+    border: none;
+    height: 40px;
+    width: fit-content;
+    font-size: 20px;
+    padding: 4px;
+   margin-top: 5px;
+
+    
+}

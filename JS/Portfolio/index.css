@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main-cont{    
+    
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    overflow: hidden;
+}
+
+.header{
+    width: 100vw;
+    background-color:gray;
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: fit-content;
+    align-items:center;
+    padding: 5px;
+}
+   
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: fit-content;    
+}
+
+.logo button{
+    border-radius: 5px;
+    border:1px solid black;
+    background-color:white;
+    font-size: 20px;   
+}
+
+.links{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 2rem;
+    font-size: larger;
+    padding-right: 2rem;
+    padding-left: 1rem; 
+}
+
+.links button{
+    color: white;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.link-bar h1{
+    color: blue;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.body{ 
+    height:90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    width: 100vw;
+}
+
+
+.side{  
+    
+    padding-top: 10px;
+     display: flex;
+     margin-left: -2.5rem;
+     height: fit-content;
+     text-align: left;
+     font-size: 13px;
+    
+}
+
+.left
+{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+   
+}
+
+
+    
+.main
+{
+        font-size: 12px;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        text-align: left;
+        width: fit-content;
+        height: fit-content; 
+        overflow: auto;     
+}
+        
+.link-bar{
+    
+    padding-top: 1rem;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+    font-size: 13px;
+    
+}
+
+.link-bar button,.link-bar i{
+    padding-left: 5px;
+    border: none;
+    background: none;
+    color:green;
+    text-align: right;
+    font-size: 40px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image:  linear-gradient(rgba(128, 128, 128, 0.265),rgba(128, 128, 128, 0.265)),
+    url("https://4kwallpapers.com/images/walls/thumbs_2t/15246.png")  ;
+
+    background-size:100% 100%;
+}
+
+.main-cont{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.todo-list-cont{ 
+   display: flex;
+   align-items:center;
+   list-style: none; 
+   margin-bottom: 20px;
+   margin-top: 10px;
+  
+}
+
+
+.label-cont{
+    color: aliceblue;
+    border-left: 5px solid rgba(0, 0, 0, 0.712);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.427);
+    width:70% ;
+    margin-left: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+.dlt-btn{
+    color: aliceblue;
+    background-color: transparent;
+    border: none;
+}
+
+.dlt-btn :focus{
+    border: none;
+    outline: none;
+}
